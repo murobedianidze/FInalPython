@@ -2,7 +2,7 @@ import random
 import time
 from functions import GameFunctions
 from data import country_capitals
-from Final.leaderboard import Leaderboard
+from leaderboard import Leaderboard
 
 class Game:
     def __init__(self):
