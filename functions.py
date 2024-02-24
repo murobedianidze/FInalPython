@@ -15,12 +15,8 @@ class GameFunctions:
         return input("Enter your answer: ").strip()
 
     def check_user_input(self, guess, country, capital):
-        if guess.lower() == capital.lower():
-            print("Correct!")
-            return True
-        else:
-            print("Incorrect!")
-            return False
-
+        return guess.lower() == capital.lower()
+         
+        
     def clear_screen(self):
         os.system('cls' if os.name == 'nt' else 'clear')
